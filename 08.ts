@@ -1,4 +1,4 @@
-interface TreeNode<T> {
+/*interface TreeNode<T> {
   value: T;
   left: TreeNode<T>;
   right: TreeNode<T>;
@@ -48,4 +48,4 @@ let currentNode = actionNode2;
 do {
   console.log(currentNode.value);
   currentNode = currentNode.prev;
-} while (currentNode)
+} while (currentNode)*/
