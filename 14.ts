@@ -35,12 +35,12 @@ function rootReducer(action: any, state: IRootState): IReadOnlyRootState {
 
 let state: IReadOnlyRootState;
 
-state.showCompletedOnly = true;
-state.userId = 'newId';
-state.todoTypes = [];
-state.todoTypes[0] = 'diff type';
-state.todos[1].linkedEmail.body = 'hi';
-state.todos[1].linkedEmail.to[1] = 'john@gmail.com';
+// state.showCompletedOnly = true;
+// state.userId = 'newId';
+// state.todoTypes = [];
+// state.todoTypes[0] = 'diff type';
+// state.todos[1].linkedEmail.body = 'hi';
+// state.todos[1].linkedEmail.to[1] = 'john@gmail.com';
 
 state.todoTypes.map(todo => todo.toUpperCase());
 state.iconGrid[0].map(icon => icon);
